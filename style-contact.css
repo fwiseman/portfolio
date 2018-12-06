@@ -1,0 +1,322 @@
+/* Core Styles -------------------------------------- */
+
+/*'Karla',helvetica, Arial, sans-serif*/
+/* cool fonts from website:: MaisonNeue,Helvetica Neue,Helvetica,sans-serif*/
+body {
+	margin:0;
+	font-family: 'Karla', Helvetica Neue,Helvetica,sans-serif;
+	background-color: black;
+	color: white;
+	font-size: 1.1em;
+	line-height: 1.5;
+	text-align: center;
+}
+
+img {
+	display:block;
+	width: 100%;
+	height: auto;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 1em 0;
+}
+
+h1 {
+	font-size: 7vw;
+}
+p {
+	margin: 0;
+	padding:1em 0;
+}
+strong {
+	text-decoration: none;
+	font-weight: bold;
+	color:#0000FF;
+}
+
+.btn {
+	display: inline-block;
+	background:none;
+	color:#08FDD8;
+	font-weight: lighter;
+	text-decoration: none;
+	padding:.3em 1.4em;
+	border: 2px solid #08FDD8;
+	margin-top:5em;
+}
+
+
+.btn:hover {
+	color: black;
+	background-color: #08FDD8;
+}
+
+.btn-2 {
+	display: inline-block;
+	background:none;
+	color:black;
+	font-weight: bolder;
+	text-decoration: none;
+	padding:.3em 1.4em;
+	border: 4px solid black;
+	margin-top:1em;
+	opacity:.4;
+}
+
+
+.btn-2:hover {
+	color: white;
+	background-color: black;
+}
+
+
+/* Header showcase ---------------------------------*/
+
+#showcase {
+	min-height:100vh;
+	text-align: center;
+}
+
+
+#showcase .bg-image {
+	position:absolute;
+	background: black;
+	background-image: url("hero-mobile-2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100vh;
+	z-index: -1;
+	opacity:1;
+}
+#showcase .bg-image-2 {
+	position:absolute;
+	background: black;
+	background-image: url("hero-mobile-3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100vh;
+	z-index: -1;
+	opacity:1;
+}
+
+#showcase h2 a {
+	color: white;
+	font-size: 2em;
+	padding:0;
+	line-height: 1em;
+	text-shadow: 0px 10px 30px rgb(50,50,50, 0.4);
+}
+#showcase h2 a:hover {
+	text-shadow: 0px 10px 40px rgb(50,50,50, 0.7);
+}
+
+#showcase h1 {
+	padding-top: 160px;
+	padding-left: .4em;
+	padding-bottom: 0;
+	font-size: 27vw;
+	line-height: 1.1em;
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+}
+
+
+#showcase p{
+	color: black;
+	font-size: 1em;
+	padding: 0;
+}
+
+#showcase .content-wrap,
+#section-a .content-wrap {
+	padding: 0 1.5em;
+}
+
+.nav {
+	position: fixed;
+	top:0;
+	background: black;
+	overflow: hidden;
+	padding-top: 0;
+	padding-left: 2em;
+	margin-top: 0;
+	width:100%;
+	z-index: 1;
+	
+}
+
+.nav a{
+	float: left;
+    color: white;
+    text-align: center;
+    padding: 1em 1.2em 1em 0em;
+    text-decoration: none;
+    font-size:1.2em;
+}
+
+#nav-active  {
+	float: left;
+    color: #0000FF;
+    text-align: center;
+    padding: 1em 1.2em 1em 0em;
+    text-decoration: none;
+    font-size:1.2em;
+}
+.nav a:hover {
+	color: #5d5d5d;
+}
+
+#logo {
+	height: 1.5em;
+	width:auto;
+	margin-rght:0;
+	padding-right: 0;
+}
+
+
+
+
+/* Footer --------------------------------------------*/
+
+#main-footer {
+	padding:2em;
+	background:#2A2A2A;
+	color:#444444;
+	text-align: center;
+}
+
+#main-footer p {
+	color:white;
+	padding: .4em;
+	margin: 0
+}
+
+#main-footer a {
+	text-decoration: none;
+	color:#08FDD8;
+}
+#main-footer a:hover {
+	color:#FC0B56;
+}
+
+/* Media Queries -------------------------------------*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
+
+
+
+
+
+
+
+
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+	h2 {
+		padding:.5em;
+	}
+
+#showcase .bg-image {
+	position:absolute;
+	background: black;
+	background-image: url("hero-web-2.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100vh;
+	z-index: -1;
+	opacity:1;
+}
+#showcase .bg-image-2 {
+	position:absolute;
+	background: black;
+	background-image: url("hero-web-3.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	width:100%;
+	height: 100vh;
+	z-index: -1;
+	opacity:1;
+}
+#showcase h1 {
+		font-size: 10em;
+		margin:0;
+		padding-top:.5em;
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.contact-wrap {
+		padding-top: 10em;
+	}
+}
+	#showcase p{
+		font-size: 1em;
+	}
+	
+	#nav a{
+		padding-bottom: 0;
+	}
+
+	a.btn {
+		margin-top:2em;
+	}
+	
+	#section-a .content-wrap {
+		padding: 0 10em;
+	}
+	#section-a {
+		font-size: 1.2em;
+	}
+
+	.proficiency {
+	max-width: 30vw;
+	padding: 0 11em;
+}
+	
+
+}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
